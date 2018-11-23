@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--my own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css"> 
+  
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+
+
+    <title>Sample page</title>
+
+    
+  </head>
+  <body class="body">
+ <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top ">
+    <a class="navbar-brand" href="#"> <img src="images/logo.png" width="27" height="30">Samsung</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-4">
+        
+        <li class="nav-item">
+          <a class="nav-link" data-value="about" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " data-value="portfolio" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " data-value="team" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " data-value="contact" href="#new">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+</nav>
+
+<!-- header -->
+<header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('images/slider1.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Galaxy J6+</h2>
+              <p>More than you expected</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/slider2.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>See nothing else</h2>
+              <p>Introducing the new 2018 QLED TV</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/slider3.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Galaxy Note9</h2>
+              <p>The new super powerful Note</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+<!-- about section -->
+<div class="aboutus-section" id="about">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-8 col-sm-7 col-xs-12">
+              <div id="about">
+                  <h2 class="about">About Us</h2>
+                  <p >Samsung was founded by Lee Byung-chul in 1938 as a trading company. Over the next three decades, the group diversified into areas including food processing, textiles, insurance, securities, and retail. Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s; these areas would drive its subsequent growth. Following Lee's death in 1987, Samsung was separated into four business groups – Samsung Group, Shinsegae Group, CJ Group and Hansol Group. Since 1990, Samsung has increasingly globalised its activities and electronics; in particular, its mobile phones and semiconductors have become its most important source of income. As of 2017, Samsung has the 6th highest global brand value.</p>
+
+                  <p >In January 2016, Samsung announced it will be working with Microsoft to develop IoT devices based on Windows 10, where the companies will work together to develop products that will run on the platform, as well as integrate with other companies developing hardware and services on Microsoft's OS.Samsung released a fitness smartwatch called the Gear Fit 2 and a brand of wireless earbuds called Gear Icon X. </p>
+                  <a class="read-more" href="#">read more</a>
+              </div>
+          </div>
+          <div class="col-xl-4 col-sm-5 col-xs-12">
+              <div class="founder-img">
+                  <figure><img src="images/founder.jpg" alt=""><figcaption>Founder : Lee Byung Chul</figcaption></figure>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+</div>
+
+<!-- portfolio section -->
+<div class="container" id="portfolio">
+   <div class="portfolio-header"><hr><p id="Categories">Categories</p><hr></div>
+   <div class="row">
+    <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/portfolio-1.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Samsung Galaxy J Series</a>
+              </h4>
+              <p class="card-text">Premium phones for everyone.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/portfolio-2.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Samsung Galaxy S Series</a>
+              </h4>
+              <p class="card-text">The freedom to do more.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/portfolio-3.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Samsung Galaxy Note Series</a>
+              </h4>
+              <p class="card-text">Improve your productivity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/portfolio-4.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Samsung Galaxy A Series</a>
+              </h4>
+              <p class="card-text">More fun for everyone.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/portfolio-5.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Samsung Tablets & Laptops</a>
+              </h4>
+              <p class="card-text">Portable and powerful.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/portfolio-6.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Samsung Home Appliances</a>
+              </h4>
+              <p class="card-text">Bring it home.</p>
+            </div>
+          </div>     
+       </div> 
+</div>
+</div>
+<!-- team portion -->
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">OUR TEAM</h5>
+        <div class="row">
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="images/timbaxter.jpg" alt="card image"></p>
+                                    <h4 class="card-title">TIM BAXTER</h4>
+                                    <p class="card-text">President and CEO Samsung</p>
+                                    <a href="#"><img src="images/logo.png" id="abc"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">TIM BAXTER</h4>
+                                    <p class="card-text">Tim Baxter is responsible for the continued growth and success of Samsung’s $30 billion+ consumer and enterprise businesses across Samsung Electronics America and Samsung Electronics Canada.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="images/younghooneom.jpg" alt="card image"></p>
+                                    <h4 class="card-title">YOUNG HOON EOM</h4>
+                                    <p class="card-text">Deputy Head Samsung</p>
+                                    <a href="#"><img src="images/logo.png" id="abc"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">YOUNG HOON EOM</h4>
+                                    <p class="card-text">Young Hoon Eom is the Deputy Head of Samsung Electronics North America, responsible for driving growth in the region and ensuring that Samsung Electronics’ innovations continue to shape and lead North American markets.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="images/davideun.jpeg" alt="card image"></p>
+                                    <h4 class="card-title">DAVID EUN</h4>
+                                    <p class="card-text">President and Founder of Samsung</p>
+                                    <a href="#"><img src="images/logo.png" id="abc"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">DAVID EUN</h4>
+                                    <p class="card-text">David Eun leads innovation efforts to develop advanced software and services through compelling startups around the world. David also oversees SmartThings, a leading Internet of Things platform for the connected home. Prior to joining Samsung.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ./Team member -->
+
+        </div>
+    </div>
+</section>
+
+<!-- contact session -->
+
+<div class="row" id="new">
+<div class="container mt-5" id="one" >
+
+    <div class="row" style="height:325px;">
+      <div class="col-md-6 maps" >
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-uppercase mt-3 font-weight-bold">Contact Us</h2>
+        <form action="">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control mt-2" placeholder="Name" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control mt-2" placeholder="Father's Name" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="email" class="form-control mt-2" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="number" class="form-control mt-2" placeholder="Tele No" required>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Comment" rows="3" required></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Accept 
+                </label>
+              </div>
+            </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-default" type="submit">Submit </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+</div>
+</div>
+
+<!-- footer -->
+<footer class="page-footer font-small blue pt-4">
+
+ 
+    <div class="container-fluid text-center text-md-left">
+
+            <div class="row">
+
+       
+        <div class="col-md-6 mt-md-0 mt-3">
+
+         
+          <h5 class="text-uppercase" style="font-size: 30px;">Samsung</h5>
+          <p style="color: #82aaf5">Samsung helps you discover a wide range of home electronics with cutting-edge technology including smartphones, tablets, TVs, home appliances and more.</p>
+
+        </div>
+       
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        
+        <div class="col-md-3 mb-md-0 mb-3">
+            
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://facebook.com">Facebook</a>
+              </li>
+              <li>
+                <a href="https://twitter.com">Twitter</a>
+              </li>
+              <li>
+                <a href="https://instagram.com">Instagram</a>
+              </li>
+            </ul>
+        </div>
+          
+
+          <div class="col-md-3 mb-md-0 mb-3">
+           <h5 class="text-uppercase">Explore</h5>
+             <ul class="list-unstyled">
+              <li>
+                <a href="#!">Portfolio</a>
+              </li>
+              <li>
+                <a href="#!">Team</a>
+              </li>
+              <li>
+                <a href="#!">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+      </div>
+  </div>
+  <div class="col">
+    <div class="footer-copyright text-center py-3" >© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Samsung</a>
+    </div>
+  </div>
+    
+
+  </footer>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <!--<script type="text/javascript" src='main.js'></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
